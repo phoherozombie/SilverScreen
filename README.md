@@ -1,27 +1,59 @@
 
-# SilverScreen
-# Movie Ticket Booking Website
+# SilverScreen - Movie Ticket Booking Website
+
+Welcome to **SilverScreen**, a movie ticket booking website built with separate frontend and backend setups. Follow the instructions below to get the project up and running on your local machine.
+
+## Getting Started
 
 To run this project, follow these steps:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/phoherozombie/movie_ticket_booking_website.git
-Terminal 1: Navigate to the frontend folder, install dependencies, and start the development server:
+### 1. Clone the Repository
 
-bash
+Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/phoherozombie/movie_ticket_booking_website.git
+```
+
+### 2. Set Up the Frontend
+
+Open **Terminal 1** and run the following commands to set up the frontend:
+
+```bash
 cd frontend
-yarn
+yarn install
 yarn dev
+```
 
-Terminal 2: Navigate to the backend folder, install dependencies, and start the backend server:
+This will install the necessary dependencies and start the frontend development server.
 
-bash
+### 3. Set Up the Backend
+
+Open **Terminal 2** and run the following commands to set up the backend:
+
+```bash
 cd backend
-yarn
+yarn install
 yarn start
+```
 
-Requirements
-Ensure Node.js and Yarn are installed on your machine.
-Notes
-You need to run both the frontend and backend servers for the website to work properly.
+This will install the necessary dependencies and start the backend server.
+
+## Requirements
+
+Ensure you have the following installed on your machine:
+
+- **Node.js**: [Download Node.js](https://nodejs.org/)
+- **Yarn**: [Install Yarn](https://yarnpkg.com/getting-started/install)
+
+## Notes
+
+- You need to run both the **frontend** and **backend** servers for the website to work properly.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+Enjoy exploring the SilverScreen project! 🎬
